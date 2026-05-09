@@ -20,7 +20,8 @@ Key Action
 The engine uses a Bigram Model. It maps every word it sees to a Counter object containing all the words that have followed it in the past.
 When you type a word, the script looks up that word in its dictionary and suggests the one with the highest frequency.
 
-⚠️ Requirements
+
+## ⚠️ Requirements
 * __Python__: v3.6+
 * __OS__: Windows or macOS (Linux requires root for keyboard library hooks).
 * __Permissions__: Since this script listens to global keystrokes, some Antivirus software may flag it. It is recommended to run it in a controlled environment.
